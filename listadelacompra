@@ -1,0 +1,7 @@
+ module: 'MMM-Wunderlist',
+     position: 'top_right',
+     header: 'Lista de la compra',
+     config: {
+        accessToken: 'fd5d2b9d2ffeabf2caf37d28ec08d965c6ff3ece91637d61d96c62af29c8',
+        clientID: 'efafc4f4d979df85eaf4',
+        lists: ["Compras"]+
