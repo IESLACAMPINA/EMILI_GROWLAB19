@@ -1,0 +1,14 @@
+module: 'MMM-Carousel',
+            position: 'bottom_bar', // Required only for navigation controls
+            config: {
+                transitionInterval: 10000,
+                showPageIndicators: true,
+                showPageControls: true,
+                ignoreModules: ['clock', 'MMM-SimpleLogo', 'email', 'currentweather', 'compliments', 'newsfeed', 'MMM-RandomYouTubePlayer'],
+                mode: 'slides',
+                slides: {
+                    "Slide 1": ['weatherforecast'],
+                    "Slide 2": ['MMM-Wunderlist'],
+                    "Slide 3": ['calendar']
+                }
+            }
