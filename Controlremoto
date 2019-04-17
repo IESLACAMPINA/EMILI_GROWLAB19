@@ -1,0 +1,11 @@
+address: "0.0.0.0", 
+        port: 8080,
+        ipWhitelist: [],
+module: 'MMM-Remote-Control',
+position: 'top_bar',
+config: {
+customCommand: {},  
+customMenu: "custom_menu.json", 
+showModuleApiMenu: true,
+apiKey: "",
+}
