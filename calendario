@@ -1,0 +1,19 @@
+module: "calendar",
+                header: "Calendario",
+                position: "top_right",  // This can be any of the regions. Best results in left or right regions.
+                config: {
+                        colored: false,
+                        fetchInterval: 10000,
+                        coloredSymbolOnly: false,
+                        calendars: [
+                                {
+url: 'https://calendar.google.com/calendar/ical/19v6ncjnld85b5qcc56f1mltb8%40group.calendar.google.com/public/basic.$
+                                        symbol: 'calendar',
+                                        auth: {
+                                            user: 'iescampigrowlab',
+                                            pass: 'XXXXXX',//Contraseña usuario
+                                            method: 'basic'
+                                        }
+                                },
+                        ],
+                }
