@@ -1,0 +1,18 @@
+module: "MMM-WeeklySchedule",
+    position: "top_left",
+    header: "Horario",
+    config: {
+        schedule: {
+            timeslots: [ "8:00", "10:00", "12:00", "14:00", "16:00" ],
+            lessons: {
+                mon: [ "Matemáticas", "Defensa personal", "Recreo", "Transfiguration" ],  
+                tue: [ "Astronomy", "Lunch Break", "Charms", "History of Magic" ],
+                wed: [ "Matemáticas", "Recreo", "Defensa personal", "Historia" ],
+                thu: [ "Historia", "Care of Magical Creatures", "Recreo", "Física" ],
+                fri: [ "Matemáticas", "Herbology", "Defensa personal", "Física"],
+                    sun: [ "Deporte", "Almuerzo especial" ] 
+            }
+        },
+        updateInterval: 1 * 60 * 60 * 1000, 
+        showNextDayAfter: "16:00"
+    }
