@@ -1,0 +1,8 @@
+module: "weatherforecast",
+                        position: "top_right",
+                        header: "Weather Forecast",
+                        config: {
+                                location: "Arahal",
+                                locationID: "6360966",  //ID from https://openweathermap.org/city
+                                appid: "XXXXXXXXXXXXXXXXXXX" //CAMBIAR por API suministrada en la web
+                        }
