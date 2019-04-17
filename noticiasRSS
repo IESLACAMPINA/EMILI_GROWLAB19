@@ -1,0 +1,12 @@
+module: "newsfeed",
+                        position: "bottom_bar",
+                        config: {
+                                feeds: [
+                                        {
+                                title: "Noticias",
+                                        url: "http://ep00.epimg.net/rss/tecnologia/portada.xml"
+                                }
+                                ],
+                                showSourceTitle: true,
+                                showPublishDate: true
+                        }
