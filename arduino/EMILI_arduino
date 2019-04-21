@@ -1,3 +1,4 @@
+// DECLARACIÓN DE VARIABLES Y PINES
 // leds de encendido
 int ledrojo=3;
 int ledverde=4;
